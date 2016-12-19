@@ -1,0 +1,89 @@
+html{
+  background-color: #a0c6ad;
+  font-family: 微軟正黑體;
+  max-width: 1278px;
+  margin: auto;
+}
+.contain{
+  position: relative;
+}
+.sidebar{
+  background-color:  #3e5b55;
+  height: 1369px;
+  width: 280px;
+}
+nav li{
+  list-style-type: none;
+  line-height: 2;
+  padding-top: 60px;
+  padding-bottom: 55px;
+  font-size: 36px;
+  color: #fff;
+}
+.main{
+  position: absolute;
+  top: 0px;
+  left: 316px;
+  height: 1369px;
+  width: 963px;
+  font-size: 36px;
+  text-align: center;
+}
+.main p{
+  padding-top: 40px;
+  line-height: 1.7;
+}
+#cell1,#cell2,#cellimg1,#cellimg2,#btn,#btn_seemore{
+  display: none;
+}
+#one{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 443px;
+  height: 457px;
+}
+#two{
+  width: 520px;
+  height: 455px;
+  position: absolute;
+  top: 457px;
+  right: 0px;
+}
+#three{
+  width: 443px;
+  height: 457px;
+  position: absolute;
+  top: 912px;
+  left: 0px;
+  margin-top: 60px;
+}
+#img1{
+  position: absolute;
+  top: 0px;
+  left: 443px;
+}
+#img2{
+  position: absolute;
+  top: 457px;
+  left: 0px;
+}
+#img3{
+  position: absolute;
+  top: 912px;
+  right: 0px;
+}
+.clear{
+  clear: both;
+}
+footer{
+  background-color:  #3e5b55;
+  width: 1278px;
+  height: 141px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+footer p{
+  padding-top: 50px;
+}

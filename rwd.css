@@ -1,0 +1,152 @@
+
+@media screen and (max-width:768px) {
+
+  html{
+    max-width: 768px;
+  }
+  .logo{
+    width: 301px;
+    margin-left: 230px;
+  }
+  .sidebar{
+    background-color:  #a0c6ad;
+    width: 180px;
+
+  }
+  nav li{
+    color: #324d43;
+    font-size: 24.42px;
+    padding: 0px;
+    padding-bottom: 55px;
+  }
+  .main p{
+    background-color: #c9ebd0 ;
+  }
+.main{
+  position: absolute;
+  left: 180px;
+  width: 537px;
+  height: 761px;
+  font-size: 20.3px;
+}
+#one{
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  width: 247px;
+  height: 254px;
+}
+#two{
+  width: 290px;
+  height: 253px;
+  position: absolute;
+  top:234px;
+  right: 0px;
+}
+#three{
+  width: 247px;
+  height: 214px;
+  position: absolute;
+  top: 447px;
+  left: 0px;
+}
+#img1{
+  position: absolute;
+  width: 290px;
+  top: 0px;
+  left: 247px;
+}
+#img2{
+  position: absolute;
+  width: 247px;
+  top: 254px;
+  left: 0px;
+}
+#img3{
+  position: absolute;
+  width: 290px;
+  top: 507px;
+  right: 0px;
+}
+footer{
+  margin: 0px;
+  max-width: 768px;
+  height: 75px;
+  position: absolute;
+  bottom: -120px;
+}
+footer p{
+  padding: 0px;
+  font-size: 24.25px;
+}
+@media screen and (max-width:320px){
+  html{
+    margin: 0px;
+    padding: 0px;
+    max-width: 320px;
+  }
+  .logo{
+    width: 242px;
+    margin: 0px;
+  }
+  .sidebar{
+    display: none;
+  }
+  #one,#img1,#two,#three{display: none;}
+  #cell1{
+    background-color: #a0c6ad;
+    position: absolute;
+    top: 545px;
+    display: block;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+  }
+  #cell2{
+    background-color: #a0c6ad;
+    position: absolute;
+    top: 182px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+    display: block;
+    font-size: 18px;
+  }
+  #cellimg1{
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+  #cellimg2{
+    position: absolute;
+    top: 357px;
+    display: block;
+  }
+  .main{
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    max-width: 320px;
+  }
+  .main img{
+    display: none;
+  }
+footer{
+  width: 320px;
+  position: absolute;
+  bottom: -450px;
+}
+#btn{
+  display: block;
+  position: absolute;
+  right: -10px;
+  top: 20px;
+}
+#btn_seemore{
+  display: block;
+  position: absolute;
+  bottom: -50px;
+}
+}
+}
