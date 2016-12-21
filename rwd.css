@@ -74,7 +74,7 @@ footer{
   max-width: 768px;
   height: 75px;
   position: absolute;
-  bottom: -120px;
+  bottom: 0px;
 }
 footer p{
   padding: 0px;
